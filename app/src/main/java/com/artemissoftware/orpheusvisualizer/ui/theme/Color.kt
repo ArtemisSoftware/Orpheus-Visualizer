@@ -12,3 +12,5 @@ val Pink40 = Color(0xFF7D5260)
 
 val Gray400 = Color(0xFFbdbdbd)
 val onSurface = Color(0xFF637394)
+
+val Pink500 = Color(0xFFe91e63)
