@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">OrpheusVisualizer</string>
+
+    <string name="lbl_play">Play</string>
+    <string name="lbl_pause">Pause</string>
 </resources>
