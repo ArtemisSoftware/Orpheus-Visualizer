@@ -6,4 +6,6 @@
     <string name="lbl_tracks">Tracks</string>
     <string name="lbl_ok">Open app settings</string>
     <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_fast_forward">Fast Forward</string>
+    <string name="lbl_fast_backward">Fast Backward</string>
 </resources>
