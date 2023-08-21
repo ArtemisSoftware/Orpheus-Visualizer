@@ -31,7 +31,7 @@ fun TrackList(
         Text(
             text = stringResource(id = R.string.lbl_tracks),
             fontWeight = FontWeight.Bold,
-            style = MaterialTheme.typography.headlineMedium,
+            style = MaterialTheme.typography.labelSmall,
             modifier = Modifier
                 .padding(
                     bottom = 3.dp,

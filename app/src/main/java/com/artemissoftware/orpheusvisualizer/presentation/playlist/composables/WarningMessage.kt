@@ -46,7 +46,7 @@ fun WarningMessage(
             Text(
                 text = text,
                 color = MaterialTheme.colorScheme.onSurface,
-                style = MaterialTheme.typography.displaySmall,
+                style = MaterialTheme.typography.labelSmall,
             )
             trailingContent?.invoke()
         }

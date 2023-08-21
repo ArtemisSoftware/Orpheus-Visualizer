@@ -133,7 +133,7 @@ class MainViewModel @Inject constructor(
             it.start()
             it.run {
                 _visualizerHelper.start(
-                    audioSessionId = audioSessionId, // TODO: verificar como obter isto do exoplayer
+                    audioSessionId = audioSessionId,
                     onData = { data ->
                         _visualizerData.value = data
                     },

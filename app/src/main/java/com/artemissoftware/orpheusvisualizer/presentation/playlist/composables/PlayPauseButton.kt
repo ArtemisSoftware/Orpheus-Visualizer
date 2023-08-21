@@ -36,10 +36,17 @@ fun PlayPauseButton(
             .clickable(
                 indication = rememberRipple(bounded = false),
                 enabled = enabled,
-                onClick = { if (isPlaying) onPause() else onPlay() },
+                onClick = {
+                    if (isPlaying) {
+                        onPause.invoke()
+                    } else {
+                        onPlay()
+                    }
+                },
                 interactionSource = remember { MutableInteractionSource() },
                 role = Role.Button,
-            ).background(brush = ButtonGradient),
+            )
+            .background(brush = ButtonGradient),
         contentAlignment = Alignment.Center,
     ) {
         Icon(

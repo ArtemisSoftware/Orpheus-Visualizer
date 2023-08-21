@@ -24,7 +24,7 @@ fun TimeBar(
     ) {
         Text(
             text = milliSecondsToTimeString(milliseconds = currentPosition),
-            style = MaterialTheme.typography.displayMedium,
+            style = MaterialTheme.typography.labelSmall,
             color = MaterialTheme.colorScheme.onSurface,
         )
         Slider(
@@ -37,7 +37,7 @@ fun TimeBar(
         )
         Text(
             text = milliSecondsToTimeString(milliseconds = duration),
-            style = MaterialTheme.typography.displayMedium,
+            style = MaterialTheme.typography.labelSmall,
             color = MaterialTheme.colorScheme.onSurface,
         )
     }

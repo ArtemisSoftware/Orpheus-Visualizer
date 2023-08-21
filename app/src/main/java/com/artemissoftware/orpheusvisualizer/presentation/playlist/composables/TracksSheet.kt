@@ -24,7 +24,7 @@ fun TracksSheet(
     Column(
         modifier = Modifier
             .verticalScroll(state = rememberScrollState())
-            .padding(top = 16.dp),
+            .padding(bottom = 56.dp),
     ) {
         if (state.audios.isEmpty()) {
             Box(
