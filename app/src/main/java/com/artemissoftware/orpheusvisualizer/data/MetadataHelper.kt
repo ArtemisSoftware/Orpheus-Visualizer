@@ -74,7 +74,6 @@ class MetadataHelper @Inject constructor(@ApplicationContext val context: Contex
                             id,
                         )
 
-                        // TODO: não obter o cover logo mudar isto quando juntar os dois códigos
                         audioList += AudioMetadata(
                             songId = id,
                             contentUri = contentUri,

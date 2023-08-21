@@ -114,7 +114,6 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    // TODO: quando juntar isto já é tratado
     private suspend fun prepareAudios(): List<AudioMetadata> {
         return repository.getAudios().map {
             val artist = if (it.artist.contains("<unknown>")) {
